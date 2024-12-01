@@ -1,0 +1,70 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#5D239D"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/fullNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ФИО"
+        android:backgroundTint="#FFFFFF"
+        android:textColorHint="#BDBDBD"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:backgroundTint="#FFFFFF"
+        android:textColorHint="#BDBDBD"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Пароль"
+        android:inputType="textPassword"
+        android:backgroundTint="#FFFFFF"
+        android:textColorHint="#BDBDBD"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/confirmPasswordInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Повторите пароль"
+        android:inputType="textPassword"
+        android:backgroundTint="#FFFFFF"
+        android:textColorHint="#BDBDBD"
+        android:padding="12dp"
+        android:layout_marginBottom="36dp"/>
+
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Подтвердить"
+        android:padding="12dp"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#5D239D"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/haveAccountRegisterText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="У вас есть аккаунт? Вход"
+        android:textSize="14sp"
+        android:textColor="#FFD700" />
+</LinearLayout>

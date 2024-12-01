@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#FFFFFF"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="5dp">
+
+    <!-- Изображение товара -->
+    <ImageView
+        android:id="@+id/partImage"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:scaleType="centerCrop"
+    android:contentDescription="@null"
+    android:layout_marginBottom="8dp"
+    android:layout_gravity="center"
+    />
+
+    <!-- Название товара -->
+    <TextView
+        android:id="@+id/partName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textSize="18sp"
+    android:textColor="#FFFFFF"
+    android:layout_marginBottom="4dp"
+    android:gravity="center"
+    android:padding="4dp"
+    android:background="#5D239D" />
+
+    <!-- Модель автомобиля -->
+    <TextView
+        android:id="@+id/partCarModel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="14sp"
+    android:textColor="#000000"
+    android:paddingBottom="4dp"
+    android:layout_marginBottom="6dp"
+    android:gravity="center" />
+
+    <!-- Цена товара -->
+    <TextView
+        android:id="@+id/partPrice"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:textColor="#5D239D"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:layout_marginBottom="6dp" />
+
+    <!-- Кнопка добавления в корзину -->
+    <Button
+        android:id="@+id/btnAddToCart"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Добавить в корзину"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="8dp" />
+</LinearLayout>

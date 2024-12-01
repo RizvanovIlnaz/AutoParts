@@ -1,0 +1,39 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Контейнер для кнопок категорий -->
+    <LinearLayout
+        android:id="@+id/categoryButtonsContainer"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnFuelSystem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Топливная система" />
+
+        <Button
+            android:id="@+id/btnCoolingSystem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Система охлаждения" />
+
+        <Button
+            android:id="@+id/btnBrakeSystem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Тормозная система" />
+    </LinearLayout>
+
+    <!-- RecyclerView для списка товаров -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewParts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+</LinearLayout>
